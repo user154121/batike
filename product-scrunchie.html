@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Batik Shirt – BATIKÉ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="cart.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>BATIKÉ</h1>
+    <p>Traditional • Elegant • Handmade</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="index.html#product">Products</a>
+    <a href="index.html#contact">Contact</a>
+</nav>
+
+<section class="product-detail">
+    <img src="images/batik-scrunchie.jpg" alt="Batik Scrunchie">
+    <div class="detail-text">
+        <h2>Batik Scrunchie</h2>
+        <p class="price">RM 10.00</p>
+
+        <p>
+            This Batik Scrunchie is a charming accessory made from
+            leftover batik fabric, promoting sustainability while celebrating
+            Malaysian culture.
+        </p>
+
+        <ul>
+            <li>✔ Eco-friendly and sustainable product</li>
+            <li>✔ Lightweight and comfortable to wear</li>
+            <li>✔ Adds a traditional touch to modern fashion</li>
+        </ul>
+
+       <button class="buy-btn"
+           onclick="addToCart('Batik Scrunchie', 10, 'images/batik-scrunchie.jpg')">
+           Add to Cart
+        </button>
+        <button class="view-cart-btn" onclick="location.href='cart.html'">
+           View Cart
+        </button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 BATIKÉ . All rights reserved .</p>
+</footer>
+
+</body>
+</html>
